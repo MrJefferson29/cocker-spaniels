@@ -26,7 +26,7 @@ function Navbar() {
         <Offcanvas.Body>
           <ProductList>
             <ProductItem onClick={() => navigate('/')}>Home</ProductItem>
-            <ProductItem onClick={() => navigate('/about-us')}>About</ProductItem>
+            <ProductItem onClick={() => navigate('/about')}>About</ProductItem>
             <ProductItem onClick={() => navigate('/available-puppies/shelter')}>Available Puppies</ProductItem>
             <ProductItem onClick={() => navigate('/health-guarantee')}>Health Guarantee</ProductItem>
             <ProductItem onClick={() => navigate('/delivery-options')}>Delivery Options</ProductItem>
