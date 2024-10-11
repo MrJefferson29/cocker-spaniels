@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import br1 from "../../Assets/br1.webp";
+import br1 from "../../Assets/sophia.jpg";
 import br2 from "../../Assets/br2.webp";
-import ma1 from "../../Assets/ma1.webp";
+import ma1 from "../../Assets/arlo.jpg";
 
 // Styled components
 const Container = styled.div`
@@ -158,9 +158,6 @@ const About = () => {
             </ListItem>
           </List>
         </Content>
-        <ImageWrapper>
-          <img src={br2} alt="Our Process" />
-        </ImageWrapper>
       </Section>
 
       <Section>

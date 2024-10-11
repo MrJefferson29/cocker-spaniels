@@ -66,14 +66,14 @@ export default function AllDogs() { // Renamed the component to 'AllDogs'
               </div>
               <div className='info-right'>
                 <span className='text'>Registry</span> {dog.registry}<br />
-                <span className='text'>Price</span> ${dog.price}<br />
+                <span className='text'>Price</span> £{dog.price}<br />
               </div>
             </div>
             <span className='description'>{truncateDescription(dog.age)}
               <hr />
             </span>
             <div className='bottom-wrapper'>
-              <div className='Price' style={{ fontSize: '1.2rem', fontWeight: 700 }}>${dog.price}</div>
+              <div className='Price' style={{ fontSize: '1.2rem', fontWeight: 700 }}>£{dog.price}</div>
               <div className='like'><FiHeart size={23} /></div>
             </div>
           </div>
