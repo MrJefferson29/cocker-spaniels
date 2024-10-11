@@ -11,6 +11,12 @@ function Navbar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  // Handle navigation and close Offcanvas
+  const handleNavigate = (path) => {
+    navigate(path);
+    handleClose(); // Close the navbar after navigation
+  };
+
   return (
     <NavbarContainer>
       <MenuIcon
@@ -25,13 +31,13 @@ function Navbar() {
         </OffcanvasHeader>
         <Offcanvas.Body>
           <ProductList>
-            <ProductItem onClick={() => navigate('/')}>Home</ProductItem>
-            <ProductItem onClick={() => navigate('/about')}>About</ProductItem>
-            <ProductItem onClick={() => navigate('/available-puppies/shelter')}>Available Puppies</ProductItem>
-            <ProductItem onClick={() => navigate('/health-guarantee')}>Health Guarantee</ProductItem>
-            <ProductItem onClick={() => navigate('/delivery-options')}>Delivery Options</ProductItem>
-            <ProductItem onClick={() => navigate('/purchase-process')}>Purchase Process</ProductItem>
-            <ProductItem onClick={() => navigate('/contact-us')}>Contact</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/')}>Home</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/about')}>About</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/available-puppies/shelter')}>Available Puppies</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/health-guarantee')}>Health Guarantee</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/delivery-options')}>Delivery Options</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/purchase-process')}>Purchase Process</ProductItem>
+            <ProductItem onClick={() => handleNavigate('/contact-us')}>Contact</ProductItem>
           </ProductList>
         </Offcanvas.Body>
       </Offcanvas>

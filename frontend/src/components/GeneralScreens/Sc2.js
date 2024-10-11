@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { Row, Col, Container } from "react-bootstrap";
 import { FiMail } from "react-icons/fi";
-import ma1 from "../../Assets/ma1.webp";
-import ma2 from "../../Assets/ma2.webp";
+import ma1 from "../../Assets/dalas.jpg";
+import ma2 from "../../Assets/darling.jpg";
 import TestimonialSlider from "./Testimonies";
 
 export default function Sc2() {

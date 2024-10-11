@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import { Facebook, Twitter, Instagram } from "react-bootstrap-icons";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 function Footer() {
   return (
@@ -22,27 +23,13 @@ function Footer() {
           <Col md={4}>
             <FooterSection>
               <FooterTitle>Quick Links</FooterTitle>
-              <FooterLink className="link" to="/">
-                Home
-              </FooterLink>
-              <FooterLink className="link" to="/about">
-                About
-              </FooterLink>
-              <FooterLink className="link" to="/available-puppies/shelter">
-                Available Puppies
-              </FooterLink>
-              <FooterLink className="link" to="/health-guarantee">
-                Health Guarantee
-              </FooterLink>
-              <FooterLink className="link" to="/delivery-options">
-                Delivery Options
-              </FooterLink>
-              <FooterLink className="link" to="/purchase-process">
-                Purchase Process
-              </FooterLink>
-              <FooterLink className="link" to="/contact-us">
-                Contact
-              </FooterLink>
+              <FooterLink to="/">Home</FooterLink>
+              <FooterLink to="/about">About</FooterLink>
+              <FooterLink to="/available-puppies/shelter">Available Puppies</FooterLink>
+              <FooterLink to="/health-guarantee">Health Guarantee</FooterLink>
+              <FooterLink to="/delivery-options">Delivery Options</FooterLink>
+              <FooterLink to="/purchase-process">Purchase Process</FooterLink>
+              <FooterLink to="/contact-us">Contact</FooterLink>
             </FooterSection>
           </Col>
           <Col md={4}>
@@ -76,8 +63,8 @@ export default Footer;
 
 // Styled components
 const FooterContainer = styled.footer`
-  background-color: #343a40; // Dark background
-  color: #f8f9fa; // Light text color
+  background-color: #343a40;
+  color: #f8f9fa;
   padding: 2rem 0;
 `;
 
@@ -101,7 +88,8 @@ const FooterTitle = styled.h3`
   margin-bottom: 0.5rem;
 `;
 
-const FooterLink = styled.a`
+// Use Link from react-router-dom
+const FooterLink = styled(Link)`
   display: block;
   color: #f8f9fa;
   text-decoration: none;
@@ -123,12 +111,12 @@ const SocialIcon = styled.a`
   transition: color 0.3s ease;
 
   &:hover {
-    color: #ff9900; // Blue color on hover
+    color: #ff9900;
   }
 `;
 
 const FooterBottom = styled.div`
   text-align: center;
   padding: 1rem;
-  background-color: #212529; // Slightly darker background for the bottom
+  background-color: #212529;
 `;
