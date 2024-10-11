@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import la1 from '../../Assets/la1.jpg';
 import la2 from '../../Assets/la2.jpg';
 import la3 from '../../Assets/la3.jpg';
@@ -95,8 +96,12 @@ function Slider() {
                 perfect puppy (or puppies) from the comfort of your home.
               </p>
               <ButtonsContainer>
+                <Link to='/available-puppies/shelter'>
                 <StyledButton>Available Pups</StyledButton>
+                </Link>
+                <Link to='/purchase-process'>
                 <StyledButton>Pet Advice</StyledButton>
+                </Link>
               </ButtonsContainer>
             </div>
           </StyledCarouselImage>

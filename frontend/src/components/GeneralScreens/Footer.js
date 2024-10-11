@@ -14,7 +14,7 @@ function Footer() {
               <FooterLogo>Cocker Spaniel Puppies</FooterLogo>
               <FooterDescription>
                 Cocker Spaniel Puppies home is a family-run business based in
-                Kent, we specialise in providing the most well-nurtured and
+                UK, we specialise in providing the most well-nurtured and
                 highest-quality Cocker spaniel puppies to the general public as well
                 as to some amazing charities across the country.
               </FooterDescription>
@@ -47,7 +47,6 @@ function Footer() {
                 </SocialIcon>
               </SocialIcons>
               <br />
-              <p>Boston, USA</p>
             </FooterSection>
           </Col>
         </Row>

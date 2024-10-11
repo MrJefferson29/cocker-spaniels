@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 // Container for the entire FAQ section
 const FAQContainer = styled.div`
@@ -211,7 +212,7 @@ const FAQ = () => {
         puppy will become a cherished member of your family for years to come.
       </Paragraph>
 
-      <CTAButton>Get Started</CTAButton>
+      <Link to='/available-puppies/shelter'> <CTAButton>Get Started</CTAButton> </Link>
     </FAQContainer>
   );
 };
