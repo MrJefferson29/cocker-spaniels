@@ -107,7 +107,7 @@ const About = () => {
           <Title>About Us</Title>
           <Paragraph>
             At Cocker Spaniel Excellence, we specialize in breeding and selling
-            top-quality Cocker Spaniel Retrievers to loving families. With over
+            top-quality Cocker Spaniels to loving families. With over
             a decade of experience, we take pride in the ethical and careful
             breeding of Cocker Spaniels, ensuring that each pup is healthy,
             well-adjusted, and ready for its forever home.

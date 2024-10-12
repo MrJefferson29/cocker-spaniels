@@ -71,7 +71,7 @@ const Delivery = () => {
       </Paragraph>
       <List>
         <ListItem>
-          Same-day or next-day delivery within the U.S.
+          Same-day or next-day delivery within the U.K.
         </ListItem>
         <ListItem>
           International delivery within 72 hours of departure.
