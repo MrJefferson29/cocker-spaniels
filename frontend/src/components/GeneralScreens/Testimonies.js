@@ -11,14 +11,14 @@ const testimonials = [
   {
     name: "Dawn, Derek",
     feedback:
-      "We are so happy we found Catharine and The Happiest Labrador. Our Bentley never stops wagging her tail. She loves being around people of all ages and other dogs. Catharine kept us informed during the entire process and all of the AKC information matched up perfectly. Our vet even asked who our breeder was as he said she was a “very heathy and happy puppy.",
+      "We are so happy we found Catharine and The Happiest Cocker Spaniel. Our Bentley never stops wagging her tail. She loves being around people of all ages and other dogs. Catharine kept us informed during the entire process and all of the AKC information matched up perfectly. Our vet even asked who our breeder was as he said she was a “very heathy and happy puppy.",
     location: "New York, NY",
     rating: 5,
   },
   {
     name: "Miller Temili",
     feedback:
-      "I got Maggie (then named espresso) from happiest Labrador in the fall of 2019. I knew from photos of her as a newborn that she was meant to be my companion. Her puppyhood was one of the easiest I’ve experienced. Her temperament and mannerisms were so mellow and calm and weren’t high strung like the American labs, which is what I wanted. She’s just the sweetest girl and I’m so blessed to have come across happiest Labrador and gain a best friend.",
+      "I got Maggie (then named espresso) from happiest puppy in the fall of 2019. I knew from photos of her as a newborn that she was meant to be my companion. Her puppyhood was one of the easiest I’ve experienced. Her temperament and mannerisms were so mellow and calm and weren’t high strung like the American cockers, which is what I wanted. She’s just the sweetest girl and I’m so blessed to have come across happiest Cocker and gain a best friend.",
     location: "Los Angeles, CA",
     rating: 4.5,
   },
@@ -32,7 +32,7 @@ const testimonials = [
   {
     name: "Gemma Rose",
     feedback:
-      "I picked up my chocolate lab pup on June 12th, and thought you guys might appreciate an update - This is Talulah (or Ms. Green) and she has the biggest, sassiest personality. She thinks she’s much bigger than she is, and only likes playing with bigger dogs - and is very food driven 🙂 She’s hungry 24/7! She’s been the best addition to our family and she’ll be making the move to Scottsdale, Arizona, with us in a few months!",
+      "I picked up my chocolate Cocker spaniel pup on June 12th, and thought you guys might appreciate an update - This is Talulah (or Ms. Green) and she has the biggest, sassiest personality. She thinks she’s much bigger than she is, and only likes playing with bigger dogs - and is very food driven 🙂 She’s hungry 24/7! She’s been the best addition to our family and she’ll be making the move to Scottsdale, Arizona, with us in a few months!",
     location: "Houston, TX",
     rating: 5,
   },

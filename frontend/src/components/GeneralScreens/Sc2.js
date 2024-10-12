@@ -44,7 +44,7 @@ export default function Sc2() {
             <h3>Healthy and Active</h3>
             <p>
               Keeping your puppy active is crucial to their
-              development. Labs are known for being high-energy dogs, so regular
+              development. Cockers are known for being high-energy dogs, so regular
               exercise is a must.
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function Sc2() {
           <Col md={8}>
             <h3>Wellbeing</h3>
             <p>
-              Our labs enjoy free runs of our gardens and are raised in a family
+              Our Cockers enjoy free runs of our gardens and are raised in a family
               environment with children. They're fed premium Royal Canin dog
               food and leave us microchipped, ready to become a part of your
               family.

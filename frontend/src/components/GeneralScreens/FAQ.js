@@ -122,7 +122,7 @@ const FAQ = () => {
 
       <Subheading>Introduction:</Subheading>
       <Paragraph>
-        Bringing a Cocker Spaniel Retriever into your life can be a rewarding and
+        Bringing a Cocker Spaniel into your life can be a rewarding and
         heartwarming experience. These friendly and loyal dogs are known for
         their intelligence, versatility, and affectionate nature, making them
         one of the most popular breeds worldwide. However, before you make the
@@ -134,7 +134,7 @@ const FAQ = () => {
       <Paragraph>
         Cocker Spaniel come in four standard colours: black, yellow, red, and
         chocolate. They are medium to large-sized dogs with a strong, athletic
-        build. Cocker Spaniel Retrievers are known for their friendly and outgoing
+        build. Cocker Spaniels are known for their friendly and outgoing
         personalities. They are excellent family dogs, and their playful nature
         makes them great companions for children. Cocker Spaniels are also intelligent
         and highly trainable, which is why they excel in various roles,
