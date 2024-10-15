@@ -31,10 +31,15 @@ export default function AllDogs() { // Renamed the component to 'AllDogs'
   };
 
   const handleCardClick = (name) => {
+    const email = "austinwinston675@gmail.com";
     const subject = `I want to purchase ${name}`;
-    const body = `Hi, I am interested in purchasing ${name}. Please provide more details.`;
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=austinwinston675@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.open(mailtoLink, '_blank');
+    const body =
+      `Hi, I am interested in purchasing ${name}. Please provide more details.` +
+      `Thank you!\n\n` +
+      `[Your Name]`;
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
   };
 
   return (
