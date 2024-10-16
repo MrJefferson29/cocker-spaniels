@@ -12,7 +12,7 @@ const testimonials = [
     name: "Dawn, Derek",
     feedback:
       "We are so happy we found Catharine and The Happiest Cocker Spaniel. Our Bentley never stops wagging her tail. She loves being around people of all ages and other dogs. Catharine kept us informed during the entire process and all of the AKC information matched up perfectly. Our vet even asked who our breeder was as he said she was a “very heathy and happy puppy.",
-    location: "New York, NY",
+    location: "Derby",
     rating: 5,
   },
   {
@@ -26,21 +26,21 @@ const testimonials = [
     name: "Michael Harrington",
     feedback:
       "Ember is doing great she has been perfect honestly, she is the sweetest and best dog. She loves kittens, kids, and any animal she meets. She’s very spoiled and gets to go to work with me everyday and is the office baby. I get compliments on her regularly and she is loved by everyone that meets her.",
-    location: "Chicago, IL",
+    location: "Bradford",
     rating: 4,
   },
   {
     name: "Gemma Rose",
     feedback:
       "I picked up my chocolate Cocker spaniel pup on June 12th, and thought you guys might appreciate an update - This is Talulah (or Ms. Green) and she has the biggest, sassiest personality. She thinks she’s much bigger than she is, and only likes playing with bigger dogs - and is very food driven 🙂 She’s hungry 24/7! She’s been the best addition to our family and she’ll be making the move to Scottsdale, Arizona, with us in a few months!",
-    location: "Houston, TX",
+    location: "Birmingham",
     rating: 5,
   },
   {
     name: "Meatball's new family",
     feedback:
       "Wilson (nickname Meatball) has brought so much joy to our lives. He's 19.5 pounds. Healthy as a horse. House broken for 2 weeks. Best student at obedience training. You really brought joy to our family. Thank you.",
-    location: "Miami, FL",
+    location: "Portland",
     rating: 4.5,
   },
 ];
